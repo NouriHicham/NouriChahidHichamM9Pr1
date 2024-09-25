@@ -1,0 +1,36 @@
+body{
+    font-size: 20px;
+    display: flex;
+}
+
+h2{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.38889em;
+    border-bottom: solid 3px #f56a6a;
+}
+
+ul{
+    list-style: none;
+}
+
+.menuIzq ul{
+    font-size: 0.9em;
+    letter-spacing: 0.075em;
+    border-top: solid 1px;
+    color: rgba(210, 215, 217, 0.75);
+}
+
+header{
+    display: flex;
+}
+
+.brands{
+    display: flex;
+}
+
+.editorial{
+    display: flex;
+}
