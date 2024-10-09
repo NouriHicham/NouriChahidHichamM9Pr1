@@ -3,13 +3,19 @@ body{
     display: flex;
 }
 
-h2{
+main{
+    padding: 40px;
+}
+
+h1, h2, h3, h4, h5{
     color: #3d4449;
     font-family: "Roboto Slab", serif;
     font-weight: 700;
+}
+
+h2{
     line-height: 1.5;
     font-size: 1.38889em;
-    border-bottom: solid 3px #f56a6a;
 }
 
 ul{
@@ -19,18 +25,76 @@ ul{
 .menuIzq ul{
     font-size: 0.9em;
     letter-spacing: 0.075em;
-    border-top: solid 1px;
-    color: rgba(210, 215, 217, 0.75);
+    color: #7f888f;
+}
+
+button{
+    border: 3px solid #f56a6a;
+    color: #f56a6a;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Roboto Slab", serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #f56a6a2a;
+}
+
+strong{
+    color: #3d4449;
+}
+
+p{
+    color: #7f888f;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.editorial p{
+    font-size: 20px;
 }
 
 header{
     display: flex;
+    align-items: center;
+    border-bottom: solid 5px #f56a6a;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .brands{
     display: flex;
 }
 
+.brands div{
+    margin: 0 6px;
+}
+
+.brands i{
+    color: #7f888f;
+}
+
+.brands i:hover{
+    color: #f56a6a;
+}
+
 .editorial{
     display: flex;
+    align-items: center;
+}
+
+.contenido1{
+    display: flex;
+}
+
+.contenido1 > div:first-of-type{
+    min-width: 520px;
+}
+
+body > div:first-of-type{
+    max-width: 300px;
 }
