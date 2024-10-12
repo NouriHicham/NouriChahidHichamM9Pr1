@@ -5,6 +5,8 @@ body{
 
 main{
     padding: 40px;
+    width: 1256px;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5{
@@ -20,6 +22,11 @@ h2{
 
 ul{
     list-style: none;
+}
+
+.menuIzq{
+    width: 290px;
+    background-color: rgba(210, 215, 217, 0.25);
 }
 
 .menuIzq ul{
@@ -97,4 +104,82 @@ header{
 
 body > div:first-of-type{
     max-width: 300px;
+}
+
+main section{
+    border-bottom: 1px solid rgba(210, 215, 217, 0.75);
+    padding: 30px 0 50px 0;
+}
+
+.contenido2 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido2 div div{
+    width: 628px;
+    display: flex;
+}
+
+.caja{
+    margin-top: 30px;
+}
+
+.simbolo{
+    height: 90px;
+    max-width: 90px;
+    border: 1px solid rgba(210, 215, 217);
+    align-content: center;
+    rotate: 45deg;
+
+}
+
+.simbolo i{
+    color: #f56a6a;
+    font-size: 50px;
+    margin: auto;
+    rotate: -45deg;
+}
+
+.textoSimbolo{
+    max-width: 457px;
+    margin-left: 40px;
+}
+
+.textoSimbolo h3, p{
+    margin-top: 0;
+}
+
+.contenido3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cajaFoto{
+    width: 378px;
+    margin: 0 40px 40px 0;
+}
+
+.cajaFoto img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.botonMenu{
+    position: fixed;
+    left: 310px;
+}
+
+.botonMenu button{
+    padding: 0;
+    border: 0px;
+    background-color: transparent;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.relleno{
+    min-width: 20px;
 }
