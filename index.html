@@ -12,26 +12,29 @@
 </head>
 <body>
     <!-- Menu izquierda -->
-    <div class="menuIzq">
+    <div class="menuIzq" style="display: block;">
         <!-- Buscador -->
-        <section>
-            <form action=""><input type="text" name="search" id="search" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i></form>
+        <section class="buscadorContenedor">
+            <input type="text" placeholder="Search" class="buscadorInput">
+            <button class="buscadorBoton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
         </section>
         <!-- Menu -->
         <section>
             <header class="titulo"><h2>Menu</h2></header>
             <div>
                 <ul>
-                    <li>HOMEPAGE</li>
-                    <li>GENERIC</li>
-                    <li>ELEMENTS</li>
-                    <li>SUBMENU</li>
-                    <li>ETIAM DOLORE</li>
-                    <li>ADIPISCING</li>
-                    <li>ANOTHER SUBMENU</li>
-                    <li>MAXIMUS ERAT</li>
-                    <li>SAPIEN MAURIS</li>
-                    <li>AMET LACINIA</li>
+                    <li><a href="#">HOMEPAGE</a></li>
+                    <li><a href="#">GENERIC</a></li>
+                    <li><a href="#">ELEMENTS</a></li>
+                    <li><a href="#">SUBMENU</a></li>
+                    <li><a href="#">ETIAM DOLORE</a></li>
+                    <li><a href="#">ADIPISCING</a></li>
+                    <li><a href="#">ANOTHER SUBMENU</a></li>
+                    <li><a href="#">MAXIMUS ERAT</a></li>
+                    <li><a href="#">SAPIEN MAURIS</a></li>
+                    <li><a href="#">AMET LACINIA</a></li>
                 </ul>
             </div>
         </section>
@@ -40,46 +43,49 @@
                 <h2>Ante interdum</h2>
             </header>
             <div>
-                <div><img src="images/pic07.jpg" alt="oso"></div>
+                <div class="imageSidebar"><img src="images/pic07.jpg" alt="oso"></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p></div>
             </div>
             <div>
-                <div><img src="images/pic08.jpg" alt="oso"></div>
+                <div class="imageSidebar"><img src="images/pic08.jpg" alt="montaña"></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p></div>
             </div>
             <div>
-                <div><img src="images/pic09.jpg" alt="oso"></div>
+                <div class="imageSidebar"><img src="images/pic09.jpg" alt="pc"></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
         </section>
         <section>
-            <div>
+            <header class="titulo">
                 <h2>Get in touch</h2>
-            </div>
+            </header>
             <div>
                 <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
             </div>
-            <div>
+            <div class="iconoSidebar">
                 <div><i class="fa-solid fa-envelope"></i></div>
-                <div><p>information@untitled.tld</p></div>
+                <div><a href="#"><p>information@untitled.tld</p></a></div>
             </div>
-            <div>
+            <div class="iconoSidebar">
                 <div><i class="fa-solid fa-phone"></i></div>
                 <div><p>(000) 000-0000</p></div>
             </div>
-            <div>
+            <div class="iconoSidebar">
                 <div><i class="fa-solid fa-house-chimney"></i></div>
                 <div><p>1234 Somewhere Road #8254 <br>Nashville, TN 00000-0000</p></div>
             </div>
         </section>
+        <footer class="copyright">
+            © Untitled. All rights reserved. Demo Images: Unsplash. Design: HTML5 UP.
+        </footer>
 
     </div>
-    <div class="botonMenu"><button><i class="fa-solid fa-bars"></i></button></div>
+    <div class="botonMenu"><button id="botonmenu"><i class="fa-solid fa-bars"></i></button></div>
     <main>
         <header>
             <div class="editorial">
-                <p><strong>Editorial</strong> by HTML5 UP</p>
+                <a href="#"><p><strong>Editorial</strong> by HTML5 UP</p></a>
             </div>
             <div class="brands">
                 <div><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
@@ -93,7 +99,7 @@
         <section class="contenido1">
             <div>
                 <div><h1>Hi, I’m Editorial by HTML5 UP</h1></div>
-                <div><p>A free and fully responsive site template</p></div>
+                <div><p>A FREE AND FULLY RESPONSIVE SITE TEMPLATE</p></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p></div>
                 <div><button>LEARN MORE</button></div>
             </div>
@@ -143,43 +149,43 @@
          </header>
          <section class="contenido3">
             <div class="cajaFoto">
-                <div><img src="images/pic01.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic01.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
             <div class="cajaFoto">
-                <div><img src="images/pic02.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic02.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
             <div class="cajaFoto">
-                <div><img src="images/pic03.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic03.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
             <div class="cajaFoto">
-                <div><img src="images/pic04.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic04.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
             <div class="cajaFoto">
-                <div><img src="images/pic05.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic05.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
             <div class="cajaFoto">
-                <div><img src="images/pic06.jpg" alt="un tia"></div>
+                <div class="imageSidebar"><img src="images/pic06.jpg" alt="un tia"></div>
                 <div><h3>Interdum aenean</h3></div>
                 <div><p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p></div>
                 <div><button>More</button></div>
             </div>
          </section>
     </main>
-    <footer></footer>
+    <script src="index.js"></script>
 </body>
 </html>

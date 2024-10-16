@@ -7,7 +7,8 @@ main{
     padding: 40px;
     padding-left: 10px;
     width: 1256px;
-    margin: auto;
+    margin-left: min(0px, 5%);
+    margin-right: min(15px, 5%);
 }
 
 h1, h2, h3, h4, h5{
@@ -31,10 +32,21 @@ ul li{
     border-bottom: 1px solid rgba(210, 215, 217);
 }
 
+a{
+    text-decoration: none;
+    color: #3d4449;
+}
+
+a:hover{
+    transition: color 0.2s ease-in-out;
+    color: #f56a6a;
+}
+
 .menuIzq{
-    width: 290px;
+    width: 370px;
     background-color: rgba(210, 215, 217, 0.25);
     padding: 20px;
+    min-width: 370px;
 }
 
 .menuIzq ul{
@@ -65,12 +77,18 @@ strong{
 
 p{
     color: #7f888f;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
 }
 
 .editorial p{
     font-size: 20px;
+}
+
+.editorial a:hover{
+    transition: color 0.2s ease-in-out;
+    color: #f56a6a;
 }
 
 header{
@@ -124,10 +142,6 @@ header h2{
     min-width: 520px;
 }
 
-body > div:first-of-type{
-    max-width: 300px;
-}
-
 main section{
     border-bottom: 1px solid rgba(210, 215, 217, 0.75);
     padding: 30px 0 50px 0;
@@ -179,7 +193,10 @@ main section{
 
 .cajaFoto{
     width: 378px;
-    margin: 0 40px 40px 0;
+    margin: 0 30px 40px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .cajaFoto img{
@@ -188,7 +205,10 @@ main section{
 }
 
 .botonMenu{
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: min(15px, 5%);
+    margin-right: min(15px, 5%);
+    
 }
 
 .botonMenu button{
@@ -199,4 +219,89 @@ main section{
 
 .fa-bars{
     font-size: 30px;
+}
+
+.imageSidebar{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imageSidebar img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imageSidebar img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.iconoSidebar i{
+    color: #f56a6a;
+}
+
+.iconoSidebar > div:first-of-type{
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+.iconoSidebar > div:nth-of-type(2){
+    margin: 15px 0;
+}
+
+.iconoSidebar{
+    display: flex;
+    border-bottom: 1px solid rgba(210, 215, 217, 0.75);
+}
+
+.iconoSidebar a{
+    text-decoration: dotted;
+}
+
+.iconoSidebar a p{
+    border-bottom: 1px dotted;
+}
+
+.copyright{
+    color: #7f888f;
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    padding: 45px 0;
+}
+
+.buscadorContenedor {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    margin: auto;
+}
+
+.buscadorInput {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.buscadorBoton {
+    background-color: transparent;
+    border: none;
+    cursor: default;
+    padding: 5px;
+}
+
+.buscadorBoton i {
+    font-size: 20px;
+    color: #7f888f;
+}
+
+.buscadorBoton:hover{
+    cursor: default;
+    background-color: transparent;
 }
