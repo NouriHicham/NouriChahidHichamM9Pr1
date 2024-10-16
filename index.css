@@ -5,6 +5,7 @@ body{
 
 main{
     padding: 40px;
+    padding-left: 10px;
     width: 1256px;
     margin: auto;
 }
@@ -22,11 +23,18 @@ h2{
 
 ul{
     list-style: none;
+    padding: 0;
+}
+
+ul li{
+    padding: 17px 0;
+    border-bottom: 1px solid rgba(210, 215, 217);
 }
 
 .menuIzq{
     width: 290px;
     background-color: rgba(210, 215, 217, 0.25);
+    padding: 20px;
 }
 
 .menuIzq ul{
@@ -36,7 +44,7 @@ ul{
 }
 
 button{
-    border: 3px solid #f56a6a;
+    border: 2.5px solid #f56a6a;
     color: #f56a6a;
     background-color: white;
     border-radius: 5px;
@@ -73,6 +81,15 @@ header{
     margin-bottom: 40px;
 }
 
+header h2{
+    margin: 14px 0;
+}
+
+.titulo{
+    width: fit-content;
+    border-bottom: solid 3px #f56a6a;
+}
+
 .brands{
     display: flex;
 }
@@ -96,6 +113,11 @@ header{
 
 .contenido1{
     display: flex;
+}
+
+.contenido1 img{
+    border-radius: 10px;
+    height: 100%;
 }
 
 .contenido1 > div:first-of-type{
@@ -166,8 +188,7 @@ main section{
 }
 
 .botonMenu{
-    position: fixed;
-    left: 310px;
+    margin-left: 10px;
 }
 
 .botonMenu button{
@@ -178,8 +199,4 @@ main section{
 
 .fa-bars{
     font-size: 30px;
-}
-
-.relleno{
-    min-width: 20px;
 }
