@@ -1,307 +1,363 @@
-body{
-    font-size: 20px;
-    display: flex;
+/* Estilo general del body */
+body {
+    font-size: 20px; /* Tamaño de fuente base */
+    display: flex; /* Usar flexbox para el layout */
 }
 
-main{
-    padding: 40px;
-    padding-left: 10px;
-    width: 1256px;
-    margin-left: min(0px, 5%);
-    margin-right: min(15px, 5%);
+/* Estilo para el contenedor principal */
+main {
+    padding: 40px; /* Padding interior */
+    padding-left: 10px; /* Padding específico a la izquierda */
+    width: 1256px; /* Ancho fijo */
+    /* Margen dinámico */
+    margin-left: min(0px, 5%); 
+    margin-right: min(15px, 5%); 
 }
 
-h1, h2, h3, h4, h5{
-    color: #3d4449;
-    font-family: "Roboto Slab", serif;
-    font-weight: 700;
+/* Estilos para encabezados h1 a h5 */
+h1, h2, h3, h4, h5 {
+    color: #3d4449; /* Color de texto */
+    font-family: "Roboto Slab", serif; /* Fuente */
+    font-weight: 700; /* negrita */
 }
 
-h2{
-    line-height: 1.5;
-    font-size: 1.38889em;
+/* Estilo específico para h2 */
+h2 {
+    line-height: 1.5; /* Altura de línea */
+    font-size: 1.38889em; /* Tamaño de fuente relativo */
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+/* Estilo para listas no ordenadas */
+ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
 }
 
-ul li{
-    padding: 17px 0;
-    border-bottom: 1px solid rgba(210, 215, 217);
+/* Estilo para elementos de lista */
+ul li {
+    padding: 17px 0; /* Padding vertical */
+    border-bottom: 1px solid rgba(210, 215, 217); /* Borde inferior */
 }
 
-a{
-    text-decoration: none;
-    color: #3d4449;
+/* Estilos para enlaces */
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: #3d4449; /* Color del texto */
 }
 
-a:hover{
-    transition: color 0.2s ease-in-out;
-    color: #f56a6a;
+/* Estilo para enlaces al pasar el ratón */
+a:hover {
+    transition: color 0.2s ease-in-out; /* Transición suave */
+    color: #f56a6a; /* Color al pasar el ratón */
 }
 
-.menuIzq{
-    width: 370px;
-    background-color: rgba(210, 215, 217, 0.25);
-    padding: 20px;
-    min-width: 370px;
+/* Estilo para el menú lateral izquierdo */
+.menuIzq {
+    width: 370px; /* Ancho fijo */
+    background-color: rgba(210, 215, 217, 0.25); /* Color de fondo semitransparente */
+    padding: 20px; /* Padding interno */
+    min-width: 370px; /* Ancho mínimo */
 }
 
-.menuIzq ul{
-    font-size: 0.9em;
-    letter-spacing: 0.075em;
-    color: #7f888f;
+/* Estilo para listas en el menú lateral */
+.menuIzq ul {
+    font-size: 0.9em; /* Tamaño de fuente menor */
+    letter-spacing: 0.075em; /* Espaciado entre letras */
+    color: #7f888f; /* Color de texto gris */
 }
 
-button{
-    border: 2.5px solid #f56a6a;
-    color: #f56a6a;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: "Roboto Slab", serif;
-    font-size: 11px;
-    font-weight: 600;
+/* Estilo para botones */
+button {
+    border: 2.5px solid #f56a6a; /* Borde colorido */
+    color: #f56a6a; /* Color del texto */
+    background-color: white; /* Fondo blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 25px; /* Padding interno */
+    font-family: "Roboto Slab", serif; /* Fuente para el texto */
+    font-size: 11px; /* Tamaño de fuente */
+    font-weight: 600; /* Peso de fuente medio */
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: #f56a6a2a;
+/* Estilo para botones al pasar el ratón */
+button:hover {
+    cursor: pointer; /* Cambiar cursor */
+    background-color: #f56a6a2a; /* Fondo al pasar el ratón */
 }
 
-strong{
-    color: #3d4449;
+/* Estilo para texto strong */
+strong {
+    color: #3d4449; /* Color del texto strong */
 }
 
-p{
-    color: #7f888f;
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.5;
+/* Estilo para párrafos */
+p {
+    color: #7f888f; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    font-family: "Open Sans", sans-serif; /* Fuente */
+    line-height: 1.5; /* Altura de línea */
 }
 
-.editorial p{
-    font-size: 20px;
+/* Estilo específico para párrafos en la clase editorial */
+.editorial p {
+    font-size: 20px; /* Tamaño de fuente mayor */
 }
 
-.editorial a:hover{
-    transition: color 0.2s ease-in-out;
-    color: #f56a6a;
+/* Estilo para enlaces en la clase editorial al pasar el ratón */
+.editorial a:hover {
+    transition: color 0.2s ease-in-out; /* Transición suave */
+    color: #f56a6a; /* Color al pasar el ratón */
 }
 
-header{
-    display: flex;
-    align-items: center;
-    border-bottom: solid 5px #f56a6a;
-    justify-content: space-between;
-    margin-bottom: 40px;
+/* Estilo para el encabezado */
+header {
+    display: flex; /* Flexbox para organizar elementos */
+    align-items: center; /* Alinear verticalmente */
+    border-bottom: solid 5px #f56a6a; /* Borde inferior colorido */
+    justify-content: space-between; /* Espacio entre elementos */
+    margin-bottom: 40px; /* Margen inferior */
 }
 
-header h2{
-    margin: 14px 0;
+/* Estilo para h2 en el encabezado */
+header h2 {
+    margin: 14px 0; /* Margen vertical */
 }
 
-.titulo{
-    width: fit-content;
-    border-bottom: solid 3px #f56a6a;
+/* Estilo para título con borde inferior */
+.titulo {
+    width: fit-content; /* Ajuste al contenido */
+    border-bottom: solid 3px #f56a6a; /* Borde inferior colorido */
 }
 
-.brands{
-    display: flex;
+/* Estilo para la clase brands */
+.brands {
+    display: flex; /* Flexbox para elementos en línea */
 }
 
-.brands div{
+/* Margen entre brands */
+.brands div {
     margin: 0 6px;
 }
 
-.brands i{
-    color: #7f888f;
+/* Estilo para íconos en marcas */
+.brands i {
+    color: #7f888f; /* Color de los íconos */
 }
 
-.brands i:hover{
-    color: #f56a6a;
+/* Estilo para íconos al pasar el ratón */
+.brands i:hover {
+    color: #f56a6a; /* Color al pasar el ratón */
 }
 
-.editorial{
-    display: flex;
-    align-items: center;
+/* Estilo para la clase editorial */
+.editorial {
+    display: flex; /* Flexbox para organización */
+    align-items: center; /* Alinear verticalmente */
 }
 
-.contenido1{
-    display: flex;
+/* Estilo para contenido principal */
+.contenido1 {
+    display: flex; /* Flexbox para disposición */
 }
 
-.contenido1 img{
-    border-radius: 10px;
-    height: 100%;
+/* Estilo para imágenes dentro de contenido */
+.contenido1 img {
+    border-radius: 10px; /* Bordes redondeados */
+    height: 100%; /* Altura completa */
 }
 
-.contenido1 > div:first-of-type{
-    min-width: 520px;
+/* Estilo para el primer div dentro de contenido */
+.contenido1 > div:first-of-type {
+    min-width: 520px; /* Ancho mínimo */
 }
 
-main section{
-    border-bottom: 1px solid rgba(210, 215, 217, 0.75);
-    padding: 30px 0 50px 0;
+/* Estilo para secciones dentro de main */
+main section {
+    border-bottom: 1px solid rgba(210, 215, 217, 0.75); /* Borde inferior */
+    padding: 30px 0 50px 0; /* Padding vertical */
 }
 
-.contenido2 div{
-    display: flex;
-    flex-wrap: wrap;
+/* Estilo para contenido en la clase contenido2 */
+.contenido2 div {
+    display: flex; /* Flexbox para disposición */
+    flex-wrap: wrap; /* Permitir ajuste en múltiples líneas */
 }
 
-.contenido2 div div{
-    width: 628px;
-    display: flex;
+/* Estilo para divs dentro de contenido2 */
+.contenido2 div div {
+    width: 628px; /* Ancho fijo */
+    display: flex; /* Flexbox para disposición */
 }
 
-.caja{
-    margin-top: 30px;
+/* Estilo para cajas de contenido */
+.caja {
+    margin-top: 30px; /* Margen superior */
 }
 
-.simbolo{
-    height: 90px;
-    max-width: 90px;
-    border: 1px solid rgba(210, 215, 217);
-    align-content: center;
-    rotate: 45deg;
-
+/* Estilo para símbolos */
+.simbolo {
+    height: 90px; /* Altura fija */
+    max-width: 90px; /* Ancho máximo */
+    border: 1px solid rgba(210, 215, 217); /* Borde colorido */
+    align-content: center; /* Alinear contenido */
+    rotate: 45deg; /* Rotar 45 grados */
 }
 
-.simbolo i{
-    color: #f56a6a;
-    font-size: 50px;
-    margin: auto;
-    rotate: -45deg;
+/* Estilo para íconos dentro de símbolo */
+.simbolo i {
+    color: #f56a6a; /* Color de ícono */
+    font-size: 50px; /* Tamaño de ícono */
+    margin: auto; /* Centrar ícono */
+    rotate: -45deg; /* Rotar ícono en sentido contrario */
 }
 
-.textoSimbolo{
-    max-width: 457px;
-    margin-left: 40px;
+/* Estilo para texto junto al símbolo */
+.textoSimbolo {
+    max-width: 457px; /* Ancho máximo */
+    margin-left: 40px; /* Margen izquierdo */
 }
 
-.textoSimbolo h3, p{
-    margin-top: 0;
+/* Margen superior para encabezados y párrafos dentro de textoSimbolo */
+.textoSimbolo h3, p {
+    margin-top: 0; /* Sin margen superior */
 }
 
-.contenido3{
-    display: flex;
-    flex-wrap: wrap;
+/* Estilo para contenido en la clase contenido3 */
+.contenido3 {
+    display: flex; /* Flexbox para disposición */
+    flex-wrap: wrap; /* Permitir ajuste en múltiples líneas */
 }
 
-.cajaFoto{
-    width: 378px;
-    margin: 0 30px 40px 0;
-    overflow: hidden;
-    border-radius: 10px;
-    padding: 5px;
+/* Estilo para cajas de fotos */
+.cajaFoto {
+    width: 378px; /* Ancho fijo */
+    margin: 0 30px 40px 0; /* Margen */
+    overflow: hidden; /* Ocultar desbordes */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 5px; /* Padding interno */
 }
 
-.cajaFoto img{
-    border-radius: 10px;
-    width: 100%;
+/* Estilo para imágenes dentro de cajaFoto */
+.cajaFoto img {
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
 }
 
-.botonMenu{
-    margin-top: 25px;
-    margin-left: min(15px, 5%);
+/* Estilo para botón en el menú */
+.botonMenu {
+    margin-top: 25px; /* Margen superior */
+    /* Margen dinámico */
+    margin-left: min(15px, 5%); 
     margin-right: min(15px, 5%);
-    
 }
 
-.botonMenu button{
-    padding: 0;
-    border: 0px;
-    background-color: transparent;
+/* Estilo para botón en botonMenu */
+.botonMenu button {
+    padding: 0; /* Sin padding */
+    border: 0px; /* Sin borde */
+    background-color: transparent; /* Fondo transparente */
 }
 
-.fa-bars{
-    font-size: 30px;
+/* Estilo para ícono fa-bars */
+.fa-bars {
+    font-size: 30px; /* Tamaño de ícono */
 }
 
-.imageSidebar{
-    overflow: hidden;
-    border-radius: 10px;
+/* Estilo para contenedor de imagen en sidebar */
+.imageSidebar {
+    overflow: hidden; /* Ocultar desbordes */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-.imageSidebar img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+/* Estilo para imágenes dentro de imageSidebar */
+.imageSidebar img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-.imageSidebar img:hover{
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
+/* Efecto al pasar el ratón sobre imágenes en imageSidebar */
+.imageSidebar img:hover {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+    transform: scale(1.1); /* Aumentar tamaño */
 }
 
-.iconoSidebar i{
-    color: #f56a6a;
+/* Estilo para íconos en sidebar */
+.iconoSidebar i {
+    color: #f56a6a; /* Color de ícono */
 }
 
-.iconoSidebar > div:first-of-type{
-    padding: 0 15px;
-    margin: 15px 0;
+/* Estilo para primer div en iconoSidebar */
+.iconoSidebar > div:first-of-type {
+    padding: 0 15px; /* Padding horizontal */
+    margin: 15px 0; /* Margen vertical */
 }
 
-.iconoSidebar > div:nth-of-type(2){
-    margin: 15px 0;
+/* Estilo para segundo div en iconoSidebar */
+.iconoSidebar > div:nth-of-type(2) {
+    margin: 15px 0; /* Margen vertical */
 }
 
-.iconoSidebar{
-    display: flex;
-    border-bottom: 1px solid rgba(210, 215, 217, 0.75);
+/* Estilo general para iconoSidebar */
+.iconoSidebar {
+    display: flex; /* Flexbox para disposición */
+    border-bottom: 1px solid rgba(210, 215, 217, 0.75); /* Borde inferior */
 }
 
-.iconoSidebar a{
-    text-decoration: dotted;
+/* Estilo para enlaces en iconoSidebar */
+.iconoSidebar a {
+    text-decoration: dotted; /* Subrayado punteado */
 }
 
-.iconoSidebar a p{
-    border-bottom: 1px dotted;
+/* Estilo para párrafos dentro de enlaces en iconoSidebar */
+.iconoSidebar a p {
+    border-bottom: 1px dotted; /* Borde punteado inferior */
 }
 
-.copyright{
-    color: #7f888f;
-    font-size: 15px;
-    font-family: "Roboto Slab", serif;
-    padding: 45px 0;
+/* Estilo para el pie de página */
+.copyright {
+    color: #7f888f; /* Color del texto */
+    font-size: 15px; /* Tamaño de fuente */
+    font-family: "Roboto Slab", serif; /* Fuente */
+    padding: 45px 0; /* Padding vertical */
 }
 
+/* Estilo para contenedor de buscador */
 .buscadorContenedor {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #f8f8f8;
-    margin: auto;
+    display: flex; /* Flexbox para disposición */
+    align-items: center; /* Alinear verticalmente */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Padding interno */
+    background-color: #f8f8f8; /* Color de fondo */
+    margin: auto; /* Centrar horizontalmente */
 }
 
+/* Estilo para campo de entrada en el buscador */
 .buscadorInput {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 5px;
-    background-color: transparent;
-    font-size: 16px;
+    width: 100%; /* Ancho completo */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+    padding: 5px; /* Padding interno */
+    background-color: transparent; /* Fondo transparente */
+    font-size: 16px; /* Tamaño de fuente */
 }
 
+/* Estilo para botón en buscador */
 .buscadorBoton {
-    background-color: transparent;
-    border: none;
-    cursor: default;
-    padding: 5px;
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: default; /* Cursor por defecto */
+    padding: 5px; /* Padding interno */
 }
 
+/* Estilo para ícono en botón de buscador */
 .buscadorBoton i {
-    font-size: 20px;
-    color: #7f888f;
+    font-size: 20px; /* Tamaño de ícono */
+    color: #7f888f; /* Color de ícono */
 }
 
-.buscadorBoton:hover{
-    cursor: default;
-    background-color: transparent;
+/* Efecto al pasar el ratón sobre el botón de buscador */
+.buscadorBoton:hover {
+    cursor: default; /* Cursor por defecto */
+    background-color: transparent; /* Sin fondo */
 }
