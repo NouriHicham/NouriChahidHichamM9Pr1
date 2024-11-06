@@ -78,6 +78,7 @@
             </div>
         </section>
 
+        <!-- form sencillo -->
         <section class="container border shadow p-3 mb-5 bg-body" style="padding: 15px;">
             <form action="">
                 <h2>Inscriu-te a la nostra Newsletter</h2>
@@ -93,10 +94,38 @@
             </form>
         </section>
 
-        <div class="container" style="padding: 0;"><button type="button" class="btn btn-secondary">Veure Proper Partit</button></div>
+
+         <!-- boton modal -->
+        <div class="container" style="padding: 0;">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Veure propor partit
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Proper partit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Barça - Madrid
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tancar</button>
+                    <button type="button" class="btn btn-primary">Veure més info</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
 
         <section class="container border rounded border-warning bg-warning p-2 text-black bg-opacity-50"><p style="margin: 15px 5px;">Última notícia: El nostre davanter ha marcat el sey 100é gol aquesta temporada!</p></section>
     </main>
+
+    <!-- footer -->
     <footer>
         <div class="bg-light" style="padding: 15px 0 30px 0;">
             <p style="text-align: center;">© 2024 FC Bootstrap - Tots els drets reservats</p> 
