@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass style.scss style.css",
+    "dev": "vite"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "sass": "^1.81.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
   }
 }
