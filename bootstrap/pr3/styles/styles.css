@@ -11844,5 +11844,115 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+header .navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+header .navbar .navbar-brand {
+  font-weight: bold;
+  color: #285E67;
+}
+header .navbar .navbar-brand img {
+  margin-right: 0.5rem;
+}
+header .navbar .nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+header .navbar .nav-link:hover {
+  color: #285E67;
+}
+
+button.btn-primary {
+  background-color: #285E67;
+  border-color: #285E67;
+}
+button.btn-primary:hover {
+  background-color: rgb(25.7342657343, 60.4755244755, 66.2657342657);
+  border-color: #285E67;
+}
+button.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+}
+button.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main .gris {
+  background-color: #F4F4F4;
+}
+main .section-img .card {
+  height: 100%;
+}
+main .section-img img {
+  height: 100% !important;
+  object-fit: cover !important;
+}
+main section {
+  margin: 2rem 0;
+}
+main section h2, main section h3 {
+  color: black;
+  font-weight: bold;
+}
+main section p {
+  color: rgb(25.5, 25.5, 25.5);
+}
+main section .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main section .card .card-img {
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #285E67;
+  color: white;
+  padding: 2rem 0;
+}
+footer .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .nav-link:hover {
+  color: white;
+}
+footer .fa-circle {
+  margin-right: 0.5rem;
+  color: white;
+}
+footer .fa-brands {
+  margin-right: 1rem;
+  color: white;
+}
+footer .fa-brands:hover {
+  color: rgb(68.5314685315, 161.048951049, 176.4685314685);
+}
+
+.plant-icon img {
+  height: 60px;
+  width: 60px;
+}
+.plant-icon h6 {
+  font-size: 40px;
+  color: #285E67;
+}
 
 /*# sourceMappingURL=styles.css.map */

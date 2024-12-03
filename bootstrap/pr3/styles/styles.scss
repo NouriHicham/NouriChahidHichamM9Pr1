@@ -1,2 +1,161 @@
 @use "../node_modules/bootstrap/scss/bootstrap.scss";
 
+// Variables
+$primary-color: #285E67;
+$secondary-color: #f8f9fa;
+$font-color: #333;
+$gray: #F4F4F4;
+$header-font: 'Poppins', sans-serif;
+
+// Reset básico
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $header-font;
+  color: $font-color;
+  background-color: $secondary-color;
+  line-height: 1.6;
+}
+
+// Header
+header {
+  .navbar {
+    background-color: $secondary-color;
+    padding: 1rem;
+
+    .navbar-brand {
+      font-weight: bold;
+      color: $primary-color;
+
+      img {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .nav-link {
+      color: $font-color;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+// Botones principales
+button {
+  &.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      border-color: $primary-color;
+    }
+  }
+
+  &.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+// Secciones principales
+main {
+  .gris {
+   background-color: $gray;
+  }
+
+  .section-img{
+   .card{
+      height: 100%;
+   }
+   img{
+      height: 100% !important;
+      object-fit: cover !important;
+   }
+  }
+
+  section {
+    margin: 2rem 0;
+
+    h2, h3 {
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      color: darken($font-color, 10%);
+    }
+
+    // Card
+    .card {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      .card-img {
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+//iconitos con la hoja
+.cajita-icono{
+   
+}
+
+// Footer
+footer {
+  background-color: $primary-color;
+  color: white;
+  padding: 2rem 0;
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .fa-circle {
+    margin-right: 0.5rem;
+    color: white;
+  }
+
+  .fa-brands {
+    margin-right: 1rem;
+    color: white;
+
+    &:hover {
+      color: lighten($primary-color, 20%);
+    }
+  }
+}
+
+// Clases personalizadas
+.plant-icon {
+  img {
+    height: 60px;
+    width: 60px;
+  }
+
+  h6 {
+    font-size: 40px;
+    color: $primary-color;
+  }
+}
+

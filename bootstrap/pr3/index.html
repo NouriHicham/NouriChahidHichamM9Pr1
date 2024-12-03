@@ -6,16 +6,20 @@
    <title>Document</title>
    <link rel="stylesheet" href="styles/styles.css">
    <script src="https://kit.fontawesome.com/fe9b416b1c.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+   <!-- Header -->
    <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
          <div class="container-fluid">
             <nav class="navbar bg-body-tertiary">
                <div class="container-fluid">
                  <a class="navbar-brand" href="#">
-                   <img src="img/gray.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                   Bootstrap
+                  <i class="fa-solid fa-circle"></i>
+                   Logo
                  </a>
                </div>
              </nav>
@@ -34,74 +38,84 @@
                  <a class="nav-link" href="#">Team</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" >Contact</a>
+                 <a class="nav-link" href="#">Contact</a>
                </li>
              </ul>
            </div>
          </div>
        </nav>
    </header>
+
+   <!-- Main -->
    <main>
-      <section class="container">
-         <h2 class="">The dawn of a era in health is here</h2>
+      <!-- Section principal -->
+      <section class="container text-center py-5">
+         <h2 class="">The dawn of a new era in health is here</h2>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quaerat et, iste quo fugiat facilis quos.</p>
-         <button type="button" class="btn btn-primary">Primary</button>
+         <button type="button" class="btn btn-primary rounded-pill px-5">Join now</button>
       </section>
-      <section class="container">
+      <!-- section imagenes -->
+      <section class="container py-5 section-img">
          <div class="row">
-            <div class="col">
-            <div class="card" style="width: 100%;">
-               <img src="img/jarraflor.jpg" class="card-img" alt="...">
+            <div class="col-md-6 mb-4">
+            <div class="card">
+               <img src="img/wildmint.jpg" class="card-img" alt="jarraflor">
              </div>
             </div>
-            <div class="col">
-               <div class="card" style="width: 100%;">
-                  <img src="img/tulipan.jpg" class="card-img" alt="...">
+            <div class="col-md-6 mb-4">
+               <div class="card">
+                  <img src="img/muhcasplantas.jpg" class="card-img" alt="tulipan">
                </div>
             </div>
          </div>
       </section>
 
-      <section class="container">
-         <div class="row">
-            <div class="col">
-               <div class="row"><h3>Wellbeing is welldoing</h3></div>
+      <!-- section señora -->
+      <section class="container py-5 gris rounded-4">
+         <div class="row align-items-center">
+            <div class="col-md-6">
+               <h3>Wellbeing is welldoing</h3>
                <div class="row">
-                  <div class="col">
-                     <img src="" alt="">
+                  <div class="col-6 text-center">
+                     <img src="img/leaf.svg" alt="leaf" class="img-fluid">
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
                   </div>
-                  <div class="col">
-                     <img src="" alt="">
+                  <div class="col-6 text-center">
+                     <img src="img/leaf.svg" alt="leaf" class="img-fluid">
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
                   </div>
                </div>
             </div>
-            <div class="col"><img src="img/women.png" alt=""></div>
+            <div class="col-md-6 text-center"><img src="img/women.png" alt="" class="img-fluid"></div>
          </div>
       </section>
-      <section class="container">
-         <div class="row">
-            <div class="col"><img src="img/planta.png" alt=""></div>
-            <div class="col">
+
+      <!-- section fresca -->
+      <section class="container py-5">
+         <div class="row align-items-center">
+            <div class="col-md-6 text-center"><img src="img/planta.png" alt="img-fluid"></div>
+            <div class="col-md-6">
                <h3>Fresh organic produce</h3>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quia! Perferendis fugiat harum sit laudantium, vitae</p>
-               <div class="row">
-                  <div class="col"><img src="" alt=""></div>
-                  <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
-               </div>
-               <div class="row">
-                  <div class="col"><img src="" alt=""></div>
-                  <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
-               </div>
-               <div class="row">
-                  <div class="col"><img src="" alt=""></div>
-                  <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
-               </div>
+               <ul class="list-unstyled">
+                  <li class="d-flex align-items-center mb-3">
+                     
+                     <img src="img/leaf.svg" alt="Leaf" class="me-3 cajita-icono">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </li>
+                  <li class="d-flex align-items-center mb-3">
+                     <img src="img/leaf.svg" alt="Leaf" class="me-3">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </li>
+                  <li class="d-flex align-items-center">
+                     <img src="img/leaf.svg" alt="Leaf" class="me-3">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </li>
+               </ul>
             </div>
          </div>
       </section>
-      <section class="container">
+      <section class="container gris rounded-4">
          <div class="row">
             <div class="col"><img src="img/pina.png" alt="piña"></div>
             <div class="col">
@@ -149,13 +163,32 @@
       </section>
    </main>
 
-   <div class="container">
-      <footer class="container">
-         <div>
-
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col">
+               <div class="d-flex">
+                  <i class="fa-solid fa-circle"></i>
+                   <p>Logo</p>
+               </div>
+               <div>
+                  <ul class="nav">
+                     <li class="nav-item"><i class="fa-brands fa-twitter px-2"></i></li>
+                     <li class="nav-item"><i class="fa-brands fa-instagram px-2"></i></li>
+                     <li class="nav-item"><i class="fa-brands fa-linkedin px-2"></i></li>
+                     <li class="nav-item"><i class="fa-brands fa-square-facebook px-2"></i></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <ul class="nav justify-content-end">
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Team</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacty</a></li>
+               </ul>
+            </div>
          </div>
       </footer>
-    </div>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
