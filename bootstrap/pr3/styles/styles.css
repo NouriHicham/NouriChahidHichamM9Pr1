@@ -11904,10 +11904,17 @@ main .section-img img {
 }
 main section {
   margin: 2rem 0;
+  border-radius: 15px;
 }
 main section h2, main section h3 {
   color: black;
   font-weight: bold;
+}
+main section h2 {
+  font-size: 70px;
+}
+main section h3 {
+  font-size: 50px;
 }
 main section p {
   color: rgb(25.5, 25.5, 25.5);
@@ -11921,6 +11928,33 @@ main section .card {
 main section .card .card-img {
   height: auto;
   object-fit: cover;
+}
+
+.hoja-redonda {
+  width: 55px;
+  height: 55px;
+  padding: 11px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.fit-content {
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.bg-prim {
+  background-color: #285E67;
+}
+
+.bg-rosita {
+  background-color: #EBBFAE;
+}
+
+.margin-mujer {
+  margin-left: 76px;
 }
 
 footer {
@@ -11942,10 +11976,6 @@ footer .fa-brands {
   margin-right: 1rem;
   color: white;
 }
-footer .fa-brands:hover {
-  color: rgb(68.5314685315, 161.048951049, 176.4685314685);
-}
-
 .plant-icon img {
   height: 60px;
   width: 60px;
@@ -11953,6 +11983,19 @@ footer .fa-brands:hover {
 .plant-icon h6 {
   font-size: 40px;
   color: #285E67;
+}
+
+.cien {
+  height: 370px;
+}
+
+.section-boton h2 {
+  font-size: 30px;
+}
+.section-boton div {
+  padding: 60px 0px;
+  margin: 0 auto;
+  width: 700px;
 }
 
 /*# sourceMappingURL=styles.css.map */

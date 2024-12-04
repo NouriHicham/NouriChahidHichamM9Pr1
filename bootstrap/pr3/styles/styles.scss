@@ -5,7 +5,9 @@ $primary-color: #285E67;
 $secondary-color: #f8f9fa;
 $font-color: #333;
 $gray: #F4F4F4;
+$rosita: #EBBFAE;
 $header-font: 'Poppins', sans-serif;
+$size-hoja: 55px;
 
 // Reset básico
 * {
@@ -87,10 +89,19 @@ main {
 
   section {
     margin: 2rem 0;
+    border-radius: 15px;
 
     h2, h3 {
       color: black;
       font-weight: bold;
+    }
+
+    h2{
+      font-size: 70px;
+    }
+
+    h3{
+      font-size: 50px;
     }
 
     p {
@@ -113,8 +124,31 @@ main {
 }
 
 //iconitos con la hoja
-.cajita-icono{
-   
+.hoja-redonda{
+  width: $size-hoja;
+  height: $size-hoja;
+  padding: 11px;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.fit-content{
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.bg-prim{
+  background-color: $primary-color;
+}
+
+.bg-rosita{
+  background-color: $rosita;
+}
+
+.margin-mujer{
+  margin-left: 76px;
 }
 
 // Footer
@@ -141,12 +175,11 @@ footer {
     color: white;
 
     &:hover {
-      color: lighten($primary-color, 20%);
+      
     }
   }
 }
 
-// Clases personalizadas
 .plant-icon {
   img {
     height: 60px;
@@ -159,3 +192,18 @@ footer {
   }
 }
 
+.cien{
+  height: 370px;
+}
+
+.section-boton{
+  
+  h2{
+    font-size: 30px;
+  }
+  div{
+    padding: 60px 0px;
+    margin: 0 auto;
+    width: 700px;
+  }
+}
